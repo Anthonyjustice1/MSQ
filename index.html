@@ -17,58 +17,48 @@
         <form action="">
           <div>
             <label for="">First Name:</label>
-            <input type="text" name="first_name" required />
+            <input type="text" name="first_name" required class="name" />
           </div>
 
           <div>
             <label for="">Last Name:</label>
-            <input type="text" name="last_name" required />
+            <input type="text" name="last_name" required class="name"/>
           </div>
 
           <div>
             <label for="">Matric Number:</label>
-            <input type="text" name="matric_number" required />
+            <input type="text" name="matric_number" required class="matric"/>
           </div>
 
           <div>
             <label for="">Address:</label>
-            <input type="text" name="Address" required />
+            <textarea type="text" name="address" id="" class="address" required cols="50" rows="50"></textarea>
           </div>
-
-          <!-- <div>
-            <label for="">Address:</label>
-            <input type="text" name="Address" required />
-          </div> -->
 
           <div>
             <label for="">Date of Birth:</label>
-            <input type="date" name="dob" required />
+            <input type="date" name="dob" required class="dob"/>
           </div>
 
           <div>
             <label for="">State:</label>
-            <input type="text" name="state" required />
+            <input type="text" name="state" required class="state"/>
           </div>
 
           <div>
             <label for="">Phone Number:</label>
-            <input type="text" name="phonne_number" required />
+            <input type="text" name="phonne_number" required class="number"/>
           </div>
 
-          <div>
-            <label for="">Address:</label>
-            <input type="text" name="Address" required />
-          </div>
 
           <div>
             <label for="">Email Address:</label>
-            <input type="text" name="email" required />
+            <input type="text" name="email" required class="email"/>
           </div>
 
           <div>
             <label for="">Sex:</label>
-            <select name="sex" id="">
-              <!-- <option value=""></option> -->
+            <select name="sex" id="" class="sex">
               <option value="male">Male</option>
               <option value="female">Female</option>
             </select>
@@ -76,17 +66,20 @@
 
           <div>
             <label>Departmet:</label>
-            <input type="text" name="departmet" required />
+            <input type="text" name="departmet" required class="dept"/>
           </div>
 
           <div>
             <label>Next of Kin</label>
-            <input type="text" name="next_kin" />
+            <input type="text" name="next_kin" class="next"/>
           </div>
 
           <div>
-            <label>Mode of Study</label>
-            <input type="text" name="mode_study" />
+            <label for="">Mode of Study</label>
+            <select name="sex" id="" class="mode">
+              <option value="male">Morning</option>
+              <option value="female">Evening</option>
+            </select>
           </div>
 
           <button type="submit">Submit</button>
